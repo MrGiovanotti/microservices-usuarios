@@ -5,7 +5,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.annotation.RestResource;
 
-import com.aprendizaje.usuarios.models.entities.Usuario;
+import com.aprendizaje.commons.usuarios.models.entities.Usuario;
 
 // A partir de este repositorio creamos automáticamente un CRUD completo.
 // Le pasamos el que va a ser el endpoint donde estará todo nuestro CRUD

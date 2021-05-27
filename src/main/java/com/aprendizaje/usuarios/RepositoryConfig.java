@@ -4,8 +4,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 
-import com.aprendizaje.usuarios.models.entities.Role;
-import com.aprendizaje.usuarios.models.entities.Usuario;
+import com.aprendizaje.commons.usuarios.models.entities.Role;
+import com.aprendizaje.commons.usuarios.models.entities.Usuario;
 
 /**
  * Esta clase de configuración es para incluir los id cuando hagamos consultas a
