@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 // Hacemos los siguiente para que Spring boot encuentre las entidades, ya que ya
 // no están en el paquete base
-@EntityScan({"com.aprendizaje.usuarios.commons.models.entities"})
+@EntityScan({"com.aprendizaje.commons.usuarios.models.entities"})
 public class MicroservicesUsuariosApplication {
 
 	public static void main(String[] args) {
